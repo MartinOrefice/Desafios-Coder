@@ -4,9 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- font-family-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+        </style>
     <title>Desafio Complementario</title>
 </head>
 <body>
-    <script src="js/main.js"></script>
+    
+<div class="container">
+   <header>
+    <h1>Desafio de DOM y Eventos</h1>
+   </header>
+
+   <main>
+        <p>
+            Bienvenido, ingrese su nombre y apellido y lo añadiremos a la lista de espera
+        </p>
+        <div class="inputs">
+            <div class="informacion">
+                <input class="datos" type="text" placeholder="Nombre y apellido" id="nombreYapellido">
+            </div>
+            <div class="btnAgregar">
+                <input class="calcular" type="submit" value="Agregar" id="agregar" >
+            </div>
+        </div>
+         <li class="nombre"></li>
+   </main>
+
+   <footer>
+    <h4>soy un footer :)</h4>
+   </footer>
+
+</div class="container">
+
+
+        <script src="js/main.js"></script>
 </body>
 </html>
