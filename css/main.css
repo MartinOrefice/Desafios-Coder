@@ -17,46 +17,53 @@
 
 header{
     grid-area:header ;
-    background-color: #5b162e;
+    background-color: #efb810;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 h1{
     
-    color: white;
+    color: #0a0a0a;
 }
 
 main{
     grid-area:main ;
-    background-color: #994462;
+    background-color: #0a0a0a;
 }
 p{
     color: whitesmoke;
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 .inputs{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 100px; 
 }
 .datos{
     text-align: center;
     border-width: 3px;
     padding: 5px;
-    border-color: black;
+    border-color: #0a0a0a;
+    border-radius: 0.2rem;
+    outline:none;
+    border:0;
+    margin-left: 0.4rem;
 }
-.calcular{
-   background-color: rgb(3, 80, 247);
-   color: white;
+.iniciar, .calcular{
+   background-color: #f3c332;
+   color: #0a0a0a;
+   font-weight: bold;
    padding: 5px;
    margin-left: 10px;
+   border-radius: 0.4rem;
    cursor: pointer;
 }
+
 .nombre{
     display: flex;
     justify-content: center;
@@ -64,9 +71,14 @@ p{
     font-weight: bolder;
     color: whitesmoke;
 }
+
+.resultado{
+    font-size: 2.5rem;
+}
+
 footer{
     grid-area:footer ;
-    background-color: #e79fbd;
+    background-color: #d4a413;
     display: flex;
     justify-content: center;
     align-items: center;
