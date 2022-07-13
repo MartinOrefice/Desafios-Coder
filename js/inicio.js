@@ -21,7 +21,7 @@ btnIniciar.addEventListener("click", ()=>{
     }).showToast();
   } else {
     localStorage.setItem("Usuario", inputNombre.value);
-    window.location.href = "../pages/calculadora.html";
+    window.location.href = "../pages/productos.html";
   }
 });
 
